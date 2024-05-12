@@ -25,7 +25,7 @@ public class Contador {
 
         int contagem = parametroDois - parametroUm;
 
-        if(contagem < 0){
+        if(contagem <= 0){
             throw new ParametrosInvalidosException();
         }
         else{
